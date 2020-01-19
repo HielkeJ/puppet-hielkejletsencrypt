@@ -9,6 +9,7 @@ ACCOUNT_KEY_LENGTH=<%= $account_key_length %>
 ACCOUNT_KEY="<%= $base_dir%>/conf/account.key"
 PRIVATE_KEY_ALG="<%= $private_key_alg -%>"
 REUSE_PRIVATE_KEY="<%= $reuse_private_key -%>"
+API=2
 
 <% if $reload_command { -%>
 # The command needed to reload apache / nginx or whatever you use
